@@ -15,7 +15,7 @@ body{
     width: 650px;
     height: 650px;
     border-radius: 50%;
-    background: black;
+    background: rgb(9, 9, 9);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,14 +30,14 @@ body{
 }
 p{
     position: absolute;
-    color: #fff;
+    color: #e2d9d9;
     font-size: 80px;
     font-weight: 800;
 }
 .circle{
     width: 30px;
     height: 30px;
-    border-radius: 50%;
+    border-radius: 55%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -66,7 +66,7 @@ p{
 .second .left{
     height: 58%;
     width: 100%;
-    background-color: #f7f7f7;
+    background-color: #f4efef;
 }
 .second .right{
     height: 42%;
@@ -147,7 +147,7 @@ p{
 .item5{
     bottom: 55px;
     right: 145px;
-    color: #f5db00;
+    color: #e0ca06;
 }
 .item6{
     left: 50%;
