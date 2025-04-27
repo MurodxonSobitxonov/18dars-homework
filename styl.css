@@ -147,7 +147,7 @@ p{
 .item5{
     bottom: 55px;
     right: 145px;
-    color: #e0ca06;
+    color: #d5c21c;
 }
 .item6{
     left: 50%;
@@ -157,12 +157,12 @@ p{
 .item7{
     bottom: 55px;
     left: 145px;
-    color: #d4047d;
+    color: #cc127f;
 }
 .item8{
     bottom: 140px;
     left: 70px;
-    color: #a8cee1;
+    color: #9ecee6;
 }
 .item9{
     top: 50%;
@@ -172,12 +172,12 @@ p{
 .item10{
     top: 147px;
     left: 50px;
-    color: #fcde00;
+    color: #f4da18;
 }
 .item11{
     top: 53px;
     left: 114px;
-    color: #96c22f;
+    color: #a4d72b;
 }
 .item12{
     left: 50%;
@@ -185,5 +185,5 @@ p{
     transform: translateX(-50%);
 }
 .item3, .item6, .item9, .item12{
-    color: #d6d6d6;
+    color: #c3c1c1;
 }
