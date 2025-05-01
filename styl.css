@@ -5,7 +5,7 @@
 }
 body{
     height: 100vh;
-    background-color: #eecd4a;
+    background-color: #f1cc37;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@ body{
     width: 650px;
     height: 650px;
     border-radius: 50%;
-    background: rgb(9, 9, 9);
+    background: rgb(8, 8, 8);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +25,7 @@ body{
     width: 600px;
     height: 600px;
     border-radius: 50%;
-    background: #1d1d1d;
+    background: #1e1d1d;
     position: relative;
 }
 p{
@@ -41,10 +41,10 @@ p{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-51%, -51%);
     z-index: 999;
     background-color: #f7f7f7;
-    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 2px rgba(12, 12, 12, 0.3);
 }
 @keyframes second{
     from{
@@ -66,7 +66,7 @@ p{
 .second .left{
     height: 58%;
     width: 100%;
-    background-color: #f4efef;
+    background-color: #ffffff;
 }
 .second .right{
     height: 42%;
@@ -92,7 +92,7 @@ p{
 .minute .left{
     height: 60%;
     width: 100%;
-    background-color: #f7f7f7;
+    background-color: #f5efef;
 }
 .minute .right{
     height: 40%;
@@ -157,7 +157,7 @@ p{
 .item7{
     bottom: 55px;
     left: 145px;
-    color: #cc127f;
+    color: #e72194;
 }
 .item8{
     bottom: 140px;
