@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     height: 100vh;
     background-color: #f1cc37;
     display: flex;
@@ -11,7 +12,8 @@ body{
     justify-content: center;
     font-family: sans-serif;
 }
-.wrapper{
+
+.wrapper {
     width: 650px;
     height: 650px;
     border-radius: 50%;
@@ -21,20 +23,23 @@ body{
     justify-content: center;
     box-shadow: 30px 25px 5px #8f7c2d;
 }
-.box{
+
+.box {
     width: 600px;
     height: 600px;
     border-radius: 50%;
     background: #1e1d1d;
     position: relative;
 }
-p{
+
+p {
     position: absolute;
     color: #e2d9d9;
     font-size: 80px;
     font-weight: 800;
 }
-.circle{
+
+.circle {
     width: 30px;
     height: 30px;
     border-radius: 55%;
@@ -46,15 +51,18 @@ p{
     background-color: #f7f7f7;
     box-shadow: 5px 5px 2px rgba(12, 12, 12, 0.3);
 }
-@keyframes second{
-    from{
+
+@keyframes second {
+    from {
         transform: translate(-50%, -50%) rotate(0deg);
     }
-    to{
+
+    to {
         transform: translate(-50%, -50%) rotate(360deg);
     }
 }
-.second{
+
+.second {
     width: 5px;
     height: 530px;
     position: absolute;
@@ -63,24 +71,29 @@ p{
     transform: translate(-50%, -50%);
     animation: second 60s linear infinite;
 }
-.second .left{
+
+.second .left {
     height: 58%;
     width: 100%;
     background-color: #ffffff;
 }
-.second .right{
+
+.second .right {
     height: 42%;
     width: 100%;
 }
-@keyframes minute{
-    from{
+
+@keyframes minute {
+    from {
         transform: translate(-50%, -50%) rotate(0deg);
     }
-    to{
+
+    to {
         transform: translate(-50%, -50%) rotate(360deg);
     }
 }
-.minute{
+
+.minute {
     width: 15px;
     height: 450px;
     position: absolute;
@@ -89,24 +102,29 @@ p{
     transform: translate(-50%, -50%) rotate(0deg);
     animation: minute 3600s linear infinite;
 }
-.minute .left{
+
+.minute .left {
     height: 60%;
     width: 100%;
     background-color: #f5efef;
 }
-.minute .right{
+
+.minute .right {
     height: 40%;
     width: 100%;
 }
-@keyframes hour{
-    from{
+
+@keyframes hour {
+    from {
         transform: translate(-50%, -50%) rotate(0deg);
     }
-    to{
+
+    to {
         transform: translate(-50%, -50%) rotate(360deg);
     }
 }
-.hour{
+
+.hour {
     width: 22px;
     height: 340px;
     position: absolute;
@@ -115,75 +133,93 @@ p{
     transform: translate(-50%, -50%) rotate(0deg);
     animation: hour 216000s linear infinite;
 }
-.hour .left{
+
+.hour .left {
     height: 63%;
     width: 100%;
     background-color: #f7f7f7;
 }
-.hour .right{
+
+.hour .right {
     height: 37%;
     width: 100%;
 }
-.item1{
+
+.item1 {
     top: 55px;
     right: 145px;
     color: #c466b6;
 }
-.item2{
+
+.item2 {
     top: 140px;
     right: 70px;
     color: red;
 }
-.item3{
+
+.item3 {
     top: 50%;
     right: 50px;
     transform: translateY(-50%);
 }
-.item4{
+
+.item4 {
     bottom: 140px;
     right: 70px;
     color: #f81e07;
 }
-.item5{
+
+.item5 {
     bottom: 55px;
     right: 145px;
     color: #d5c21c;
 }
-.item6{
+
+.item6 {
     left: 50%;
     bottom: 20px;
     transform: translateX(-50%);
 }
-.item7{
+
+.item7 {
     bottom: 55px;
     left: 145px;
     color: #e72194;
 }
-.item8{
+
+.item8 {
     bottom: 140px;
     left: 70px;
     color: #9ecee6;
 }
-.item9{
+
+.item9 {
     top: 50%;
     left: 50px;
     transform: translateY(-50%);
 }
-.item10{
+
+.item10 {
     top: 147px;
     left: 50px;
     color: #f4da18;
 }
-.item11{
+
+.item11 {
     top: 53px;
     left: 114px;
     color: #a4d72b;
 }
-.item12{
+
+.item12 {
     left: 50%;
     top: 20px;
     transform: translateX(-50%);
 }
-.item3, .item6, .item9, .item12{
+
+.item3,
+.item6,
+.item9,
+.item12 {
     color: #c3c1c1;
 }
